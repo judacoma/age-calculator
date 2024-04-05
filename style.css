@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+
+
+}
+
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; 
+
+
+    background: #F0F0F0;
+
+
+}
+
+.box{
+    width: 600px;
+    height: 450px;
+
+    background-color: white;
+    border-radius:20px ;
+    border-bottom-right-radius: 30%;
+
+    box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.247);
+}
+
+/*ingresar fecha nacimiento*/
+
+input{
+    width: 90px;
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid rgb(207, 207, 207);
+
+    padding-left:10px ;
+    color: black;
+
+    margin-right:15px ;
+
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+.fecha{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: -190px;
+
+    color: #6F7171;
+
+    font-size: 20px;
+
+}
+
+.fecha1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.text{
+    margin-right: 75px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.alert{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin-left: 80px;
+    
+}
+
+.textAlert{
+    margin-right: 100px;
+    font-size: 12px;
+    color: red;
+}
+/*ingresar fecha de nacimiento*/
+
+/*linea*/
+.line{
+    display: flex;
+    flex-direction: row;
+}
+
+.linea{
+    width: 400px;
+    height: 1px;
+    background-color: #bebebe;
+    margin: 25px 0px 0px 50px;
+}
+
+button{
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50%;
+    background-color: #854dff;
+
+    font-size: 30px;
+
+    padding-top:5px ;
+
+    margin-top: -5px;
+
+    transition: 0.2s ease-out;
+
+
+}
+
+svg{
+    width: 30px;
+    height: 30px;
+}
+
+button:hover{
+    cursor: pointer;
+    width: 65px;
+    height: 65px;
+    margin-top: -8px; 
+}
+
+/*linea*/
+
+/*resultado*/
+
+.results{
+    font-size: 60px;
+    font-weight: 800;
+
+    display: flex;
+    flex-direction: row;
+    
+    margin-left: 80px;
+}
+
+.results1{
+    color: #854dff;
+}
+
+
+.results2{
+    display: flex;
+    flex-direction: column;
+}
+
+/*resultado*/
+
+
+/*celular*/
+@media (max-width: 430px){
+
+    .box{
+        width: 350px;
+        height: 500px;
+    }
+    .fecha{
+        margin-top: 60px;
+        margin-left: 5px;
+    }
+
+    .line{
+        margin-left: -40px;
+        margin-top: 25px;
+    }
+
+    .linea{
+        width: 300px;
+        margin-left: 65px;
+    }
+
+    button{
+        position: absolute;
+        left: 42%;
+    }
+
+    .results{
+        font-size: 50px;
+        font-weight: 800;
+
+        margin-top: 40px;
+        margin-left: 45px;
+    }
+
+}

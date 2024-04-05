@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora de edad</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="box">
+         <section class="fecha">
+
+            <div class="fecha1">
+               <p class="text">DAY</p>
+               <p class="text">MONTH</p>
+               <p class="text">YEAR</p>
+            </div>
+
+            <div class="fecha2">
+             <input id="dia" type="text" placeholder="DD">
+             <input id="mes" type="text" placeholder="MM">
+             <input id="año" type="text" placeholder="YYYY">
+            </div>
+
+            <div class="alert">
+               <div id="alertDia" class="textAlert"></div>
+               <div id="alertMes" class="textAlert"></div>
+               <div id="alertAño" class="textAlert"></div>
+            </div>
+
+         </section>
+
+         <section class="line">
+
+            <div class="linea"></div>
+            <button id="boton" ><svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg></button>
+         </section>
+
+         <section class="results">
+
+            <div class="results1">
+                <p id="edad_año">--</p>
+                <p id="edad_mes">--</p>
+                <p id="edad_dias">--</p>
+            </div>
+
+            <div class="results2">
+               <i>YEARS</i>
+               <i>MONTHS</i>
+               <i>DAYS </i>
+            </div>
+            
+         </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
