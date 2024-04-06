@@ -44,7 +44,7 @@ boton.addEventListener("click",function(){
     }
 
     if(fecha.getDay() < fechaNac.getDate()){
-        dia = ((fechaNac.getDate() - fecha.getDay()) + (diasMes-fechaNac.getDate())-5);
+        dia = (fechaNac.getDate() - fecha.getDay()) + (diasMes-fechaNac.getDate());
         
     }else{
         dia = fecha.getDay()-fechaNac.getDate();
