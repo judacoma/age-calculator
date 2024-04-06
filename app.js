@@ -56,17 +56,21 @@ boton.addEventListener("click",function(){
     }else{
         if(dayInput > diasMes){
             diaAlert.textContent = "Enter a valid day"
+        }else if(dayInput == ""){
+            diaAlert.textContent = "Enter the day you born"
         }
 
         if(monthInput > 12){
             mesAlert.textContent = "Enter a valid month" 
+        }else if(monthInput == ""){
+            mesAlert.textContent = "Enter the month you born"
         }
 
         if(yearInput > fecha.getFullYear()){
             añoAlert.textContent = "Enter a valid year"
+        }else if(yearInput == ""){
+            añoAlert.textContent = "Enter the year you born"
         }
     }
-})
-
 })
 
