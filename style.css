@@ -180,6 +180,19 @@ button:hover{
         margin-left: 5px;
     }
 
+    input{
+        margin-right:10px ;
+    }
+
+    .text{
+        margin-left: 70px;
+        font-size: 12px;
+        font-weight: 600;
+    
+        position: relative;
+        left: -6%;
+    }
+
     .line{
         margin-left: -40px;
         margin-top: 25px;
